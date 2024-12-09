@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- ---- HEAD  -->
+    <head>
+        <meta name="Khalil Niser" content="author" charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Khalil A Niser</title>
+        <!-- ---- X_ICON_IMAGE ---- -->
+        <link rel="icon" type="images/x-icon" href="/images/icons/k_icon.png">
+        <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
+        <!-- ---- LINK_CSS ---- -->
+        <link rel="stylesheet" type="text/css" href="/css/website_stylesheet.css">
+    </head>
+
+    <!-- ---- BACKGROUND_CLASS_BODY ---- -->
+    <body class="Background">   
+
+        <!-- NAVBAR_CLASS_DIV -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <!-- New section added -->
+            <a href="#Slideshow">Slideshow</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <!-- Onclick and ondblclick functions added to 
+                open and close the contact form -->
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+        <!-- END_NAVBAR_CLASS_DIV -->
+        </div>
+
+        <!-- ---- BACKGROUND_VIDEO_HOME_ID_DIV ---- -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <!-- ---- VIDEO_DIV ---- -->
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                <!-- Display message if video fails to run -->
+                Your browser does not support HTML5 video.
+            </video>
+        <!-- ---- END_BACKGROUND_VIDEO_HOME_ID_DIV ---- -->
+        </div>
+
+        <!-- ---- VIDEO_TEXT_CLASS_DIV ---- -->
+        <div class="Video_Text">
+            <h1 class="white-text">Khalil Niser's Portfolio</h1>
+            <!-- ---- STRONG_<p>_ELEMENT ---- -->
+            <strong>
+                <!-- ---- CENTER_CLASS_<p>_ELEMENT ---- -->
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised<br>
+                        such absolute authority to arrange a stage or field of battle and to command such<br>
+                        unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum<br>
+                    <br>
+                    My name is Khalil Niser. Welcome to my portfolio website. 
+                    Here, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+                <!-- ---- END_CENTER_CLASS_<p>_ELEMENT ---- --> 
+                </p>
+            <!-- ---- END_STRONG_<p>_ELEMENT ---- -->
+            </strong>
+        <!-- ---- END_VIDEO_TEXT_CLASS_DIV ---- -->
+        </div>
+
+        <!-- ---- SLIDESHOW_ID_DIV ---- -->
+        <div id="Slideshow">
+            <!-- ---- SLIDESHOW_BACKGROUND_ID_DIV ---- -->
+            <div id="Slideshow_Background"> 
+                <!-- ---- SLIDESHOW_CONTAINER_ID_DIV ---- -->
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="/images/square_personal_photo.png" 
+                        alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" 
+                        alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> 
+                            trained in:<br>HTML, CSS, JavaScript, JSON, 
+                            React, Java, Python, C++, C#, SQL Database</div>
+                    </div>
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!-- Slide 6 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/bright-future_2.png" 
+                        alt="Replace with a picture of your choosing"> 
+                        <div class="text"><a class="white-text contact" 
+                            onclick="openForm()">Contact me now!</a></div> 
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to 
+                    navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                </div>
+            <!-- ---- END_SLIDESHOW_BACKGROUND_ID_DIV ---- -->
+            </div>
+        <!-- ---- END_SLIDESHOW_ID_DIV ---- -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ---- CV_RESUME_PROFILE_SECTION ---- -->
+        <!-- PROFILE_CV-RESUME_SECTION -->
+    <section id="profile">
+        <!-- PICTURE_CONTAINER_DIV -->
+        <div class="section-pic-container">
+            <img src="./images/square_personal_photo.png"
+            alt="Bright_Future">
+        <!-- END_PICTURE_CONTAINER_DIV -->
+        </div>
+        <!-- TEXT_DIV -->
+        <div class="section-text">
+            <!-- PARAGRAPH -->
+            <p class="section-text-p1">Making Things Happen!
+            </p>
+             <!-- HEADING: Big Bold Letterings -->
+            <h1 class="title">Khalil Niser</h1>
+            <p class="section-text-p2">
+                Backend/Frontend Developer
+            </p>
+
+            <!-- BUTTON_CONTAINER -->
+            <div class="button-container">
+                <!-- RESUME_CV_BUTTON -->
+                <button class="button cv-button" 
+                onclick="window.
+                open('./images/khalilResume_1.pdf')">
+                Resume_CV
+                <!-- END_RESUME_BUTTON -->
+                </button>
+
+
+                <!-- CONTACT_BUTTON -->
+                <!-- <button class="button contact-button"  -->
+                <!-- onclick="location.href='./#contact'"> -->
+                <!-- Contact -->
+                <!-- END_CONTACT_BUTTON -->
+                <!-- </button> -->
+            <!-- END_BUTTON_CONTAINER -->
+            </div>
+
+
+            <!-- SOCIALS_CONTAINER_DIV -->
+            <div id="socials-container">
+                <!-- LINKEDIN_ICON_URL -->
+                <img src="./images/icons/linkedin.png" 
+                alt="My_Linkedin_Profile" class="icon" 
+                onclick="location.
+                href='https://www.linkedin.com/in/khalil-niser-0i812'">
+                <!-- GITHUB_ICON_URL -->
+                <img src="./images/icons/github.png" 
+                alt="My_Github_Profile" class="icon" 
+                onclick="location.href='https://www.github.com/khalilniser'">
+            <!-- END_SOCIALS_CONTAINER_DIV -->
+            </div>
+        <!-- END_TEXT_DIV -->
+        </div>
+    <!-- END_PROFILE_CV-RESUME_SECTION -->
+    </section>
+        <!-- ---- END_CV_RESUME_PROFILE_SECTION ---- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--                ---- ABOUT_SECTION ---- ---- -->
+        <!-- ---- ROW_CLASS_ABOUT_ID_DIV ---- -->
+        <div class="Row" id="About">
+            <!-- ---- COLUMN_2_CLASS_DIV_(LEFT_COLUMN) ---- -->
+            <div class="Column_2">
+                <!-- Full Stack Development Image -->
+                <img src="images/full_stack_development.png" 
+                alt="Replace with a picture of your choosing">
+            <!-- ---- END_COLUMN_2_CLASS_DIV_(LEFT_COLUMN) ---- -->
+            </div>
+            <!-- ---- COLUMN_1_CLASS_DIV_(RIGHT_COLUMN) ---- -->
+            <div class="Column_1">
+                <h1>About Me!</h1>
+                <p>
+                    I am a software developer that's Motivated, self driven, take, initiatives 
+                    while working. Enjoys a team environment, while demonstrates success in 
+                    individual tasks.<br> 
+                    <br>
+                    A Graduate of <a href="https://www.keiseruniversity.edu/" 
+                    target="_blank">Keiser University!</a> I have a BS degree in Software 
+                    Engineering. A graduate of <a href="https://www.learncodinganywhere.com" 
+                    target="_blank">The Tech Academy</a>’s Artificial Intelligence (AI) Boot Camp. 
+                    Trained and experienced in the following web and programming languages: 
+                    Java, C++, C#, Python, SQL, JavaScript, JQuery, Bootstrap, HTML, CSS and more.
+                    <br>
+                    <a onclick="openForm()" class="contact">Contact</a> me Below!
+                </p>
+            <!-- ---- END_COLUMN_1_CLASS_DIV_(RIGHT_COLUMN) ---- -->
+            </div>
+        <!-- ---- END_ROW_CLASS_ABOUT_ID_DIV ---- -->
+        </div>
+        <!--                ---- END_ABOUT_SECTION ---- ---- -->
+
+
+        <!-- ---- GITHUB_CONTACT_SECTION ---- -->
+        <!-- ---- ROW_CLASS_GITHUB_ID_DIV ---- -->
+        <div class="Row" id="GitHub">
+            <!-- ---- COLUMN_1_CLASS_DIV_(LEFT_COLUMN) ---- -->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>View my projects on GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/KhalilNiser" 
+                        target="_blank">Github View!</a></p>
+                </p>
+            <!-- ---- COLUMN_1_CLASS_DIV_(LEFT_COLUMN) ---- -->
+            </div>
+            <!-- ---- COLUMN_2_CLASS_DIV_(RIGHT_COLUMN) ---- -->
+            <div class="Column_2">
+                <a href="https://github.com/KhalilNiser" 
+                target="_blank"><img src="images/GitHub.png"></a>
+            </div>
+        <!-- ---- ROW_CLASS_GITHUB_ID_DIV ---- -->
+        </div>
+
+
+
+
+
+
+        <!-- ---- LINKEDIN_CONTACT_SECTION ---- -->
+        <!-- ---- ROW_CLASS_GITHUB_ID_DIV ---- -->
+        <div class="Row" id="GitHub">
+            <!-- ---- COLUMN_1_CLASS_DIV_(LEFT_COLUMN) ---- -->
+            <div class="Column_1">
+                <h1>Linkedin</h1>
+                <p>
+                    <br>
+                    <p class="center"><a href="https://www.linkedin.com/in/khalil-niser-0i812" 
+                        target="_blank">Linkedin!</a></p>
+                </p>
+            <!-- ---- COLUMN_1_CLASS_DIV_(LEFT_COLUMN) ---- -->
+            </div>
+            <!-- ---- COLUMN_2_CLASS_DIV_(RIGHT_COLUMN) ---- -->
+            <div class="Column_2">
+                <a href="https://www.linkedin.com/in/khalil-niser-0i812" 
+                target="_blank"><img src="images/icons/linkedin_3.png"></a>
+            </div>
+        <!-- ---- ROW_CLASS_GITHUB_ID_DIV ---- -->
+        </div>
+        
+
+
+        <!--                ---- CONTACT_FORM ---- -->
+        <!-- ---- CONTACT_ID_DIV ---- -->
+        <div id="Contact">
+           <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+           <!-- ---- POPUP_FORM_MYFORM_ID_DIV ---- -->
+           <div class="form-popup" id="myForm">
+                <!-- ---- FORM_CONTAINER_FORM ---- -->
+                <!-- Here I am using a free online service from https://formspree.io/ 
+                    to send our contact form to an email address of our choosing - 
+                    note: it will not run unless live on the internet, 
+                    you have to push it to your online website first -->
+                <form action="https://formspree.io/info@learncodinganywhere.com" 
+                method="POST" class="form-container"> 
+                    <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                      <input type="text" placeholder="Type your name here" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                      <input type="text" placeholder="Type your phone number here" name="phone">
+                    <label for="email"><b>Email</b></label>		
+                      <input type="text" placeholder="Type your email address here" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                      <input type="text" placeholder="Type your message here" name="message">
+         
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                <!-- ---- FORM_CONTAINER_FORM ---- -->
+                </form>
+            <!-- ---- END_POPUP_FORM_MYFORM_ID_DIV ---- -->
+           </div>
+        <!-- ---- END_CONTACT_ID_DIV ---- -->
+        </div>
+        
+        <!-- ---- FOOTER_SECTION ---- -->
+        <footer>
+                <p class="center">Copyright &#169; 2024 All Rights Reserved <a href="https://www.khalilniser.com/" 
+                    target="_blank">Khalil Niser</a></p><br>
+        </footer>
+
+
+        <!-- ---- LINK_JAVASCRIPT ---- -->
+        <script src="/js/website_script.js"></script>
+    </body>
+</html>
